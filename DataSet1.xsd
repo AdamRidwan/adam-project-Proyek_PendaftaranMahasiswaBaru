@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet1" msprop:Generator_UserDSName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Pembayaran" msprop:Generator_TableClassName="PembayaranDataTable" msprop:Generator_TableVarName="tablePembayaran" msprop:Generator_TablePropName="Pembayaran" msprop:Generator_RowDeletingName="PembayaranRowDeleting" msprop:Generator_RowChangingName="PembayaranRowChanging" msprop:Generator_RowEvHandlerName="PembayaranRowChangeEventHandler" msprop:Generator_RowDeletedName="PembayaranRowDeleted" msprop:Generator_UserTableName="Pembayaran" msprop:Generator_RowChangedName="PembayaranRowChanged" msprop:Generator_RowEvArgName="PembayaranRowChangeEvent" msprop:Generator_RowClassName="PembayaranRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="namasiswa" msprop:Generator_ColumnVarNameInTable="columnnamasiswa" msprop:Generator_ColumnPropNameInRow="namasiswa" msprop:Generator_ColumnPropNameInTable="namasiswaColumn" msprop:Generator_UserColumnName="namasiswa" type="xs:string" minOccurs="0" />
+              <xs:element name="tglbayar" msprop:Generator_ColumnVarNameInTable="columntglbayar" msprop:Generator_ColumnPropNameInRow="tglbayar" msprop:Generator_ColumnPropNameInTable="tglbayarColumn" msprop:Generator_UserColumnName="tglbayar" type="xs:string" minOccurs="0" />
+              <xs:element name="jumlah" msprop:Generator_ColumnVarNameInTable="columnjumlah" msprop:Generator_ColumnPropNameInRow="jumlah" msprop:Generator_ColumnPropNameInTable="jumlahColumn" msprop:Generator_UserColumnName="jumlah" type="xs:string" minOccurs="0" />
+              <xs:element name="prodij" msprop:Generator_ColumnVarNameInTable="columnprodij" msprop:Generator_ColumnPropNameInRow="prodij" msprop:Generator_ColumnPropNameInTable="prodijColumn" msprop:Generator_UserColumnName="prodij" type="xs:string" minOccurs="0" />
+              <xs:element name="asalsekolah" msprop:Generator_ColumnVarNameInTable="columnasalsekolah" msprop:Generator_ColumnPropNameInRow="asalsekolah" msprop:Generator_ColumnPropNameInTable="asalsekolahColumn" msprop:Generator_UserColumnName="asalsekolah" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
